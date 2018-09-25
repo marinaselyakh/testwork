@@ -8,7 +8,17 @@ h4 {
 p {
     font-family: 'Open Sans', sans-serif;
 }
+.slick-prev,
+.slick-next{
+    display: none!important;
+}
 
+.slick-dots li{
+    display: block;
+    margin: 10px;
+
+
+}
 .mg-l {
     margin-left: 50%;
 }
@@ -25,7 +35,8 @@ p {
 }
 
 header {
-    background: url('../img/Layer_70.png') no-repeat -50% center rgba(92, 95, 99, 0.3);
+    background: url('../img/Layer_70.png')  no-repeat rgba(92, 95, 99, 0.3);
+    background-position: top 50%;
     color: #ffffff;
     height: 100vh;
 }
