@@ -1,0 +1,220 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mg-l {
+    margin-left: 50%;
+}
+
+.uk-container {
+    max-width: 1170px;
+}
+
+.uk-button-secondary {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2.6px;
+}
+
+header {
+    background: url('../img/Layer_70.png') no-repeat -50% center rgba(92, 95, 99, 0.3);
+    color: #ffffff;
+    height: 100vh;
+}
+
+.uk-navbar-nav li a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    font-size: 90px;
+}
+
+h2 span {
+    font-size: 50px;
+}
+
+h1:after {
+    content: "";
+    width: 74px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #000000;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #3d3d3d;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.clients p {
+    color: #f16522;
+
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.aboutus {
+    background: url('../img/Layer_63.png') no-repeat #f8f8f8;
+}
+
+.aboutus p {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.services p {
+    line-height: 30px;
+}
+
+.services__item p,
+.industries__item p {
+    color: #3d3d3d;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.services__item div,
+.industries__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.works {
+
+    background: url(../img/old.png) no-repeat bottom left #28282e;
+    background-size: 50%;
+}
+
+
+.works h2,
+.works h3 {
+    color: #ffffff;
+}
+
+.works p {
+    color: #878796;
+    line-height: 30px;
+}
+
+
+
+.works__items {
+    background-color: #222227;
+}
+
+.works__item div {
+    width: 371px;
+    height: 243px;
+    background-color: #28282e;
+}
+
+.works__item div:last-child {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.feature {
+    background-color: #f1f1f1;
+}
+
+.feature p {
+    line-height: 30px;
+}
+
+.blog p {
+    color: #3d3d3d;
+    line-height: 24px;
+    font-size: 14px;
+}
+h5{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+line-height: 30px;
+}
+footer {
+    background-color: #e7eaed;
+}
+
+footer p {
+    color: #3d3d3d;
+    font-size: 12px;
+}
+
+footer span {
+    color: #f16522;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.mail input{
+	
+	display: block;
+
+}
+
+.mail a{
+	position: absolute;
+	 right:10px;
+	 top:7px;
+}
+.text_center {
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+}
