@@ -131,36 +131,31 @@
     margin: 0;
     list-style: none;
     text-align: center;
+
 }
 
 .slick-dots li {
     position: relative;
-
     display: inline-block;
-
-    /width: 8px;
+    width: 8px;
     height: 8px;
     margin: 0 5px;
     padding: 0;
-
     cursor: pointer;
 }
 
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
-
+    border: 0;
     display: block;
     width: 8px;
     height: 8px;
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
-
     cursor: pointer;
-
     color: transparent;
-
     outline: none;
 }
 
@@ -178,20 +173,15 @@
     font-family: 'slick';
     font-size: 6px;
     line-height: 20px;
-
     position: absolute;
     top: 0;
     left: 0;
-
     width: 20px;
     height: 20px;
-
-    content: '•';
+    content: ' ';
     text-align: center;
-
     opacity: .25;
     color: black;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -199,4 +189,7 @@
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
+}
+.slick-dots li.slick-active button{
+    background-color: orangered;
 }
