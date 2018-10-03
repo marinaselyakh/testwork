@@ -10,20 +10,18 @@
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/slick-theme.css"/>
-
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
     <link rel="stylesheet" href="css/owl.theme.default.css"/>
-
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-<header>
-    <div class="uk-container test3">
-        <nav uk-navbar>
-            <a href="#" class="uk-navbar-item uk-logo"><img src="img/Layer_77.png" alt=""></a>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
+<div class="uk-offcanvas-content">
+    <header>
+
+        <div id="mobile-menu" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav">
                     <li><a href="">Home</a></li>
                     <li><a href="">Works</a></li>
                     <li><a href=""> Industries </a></li>
@@ -33,59 +31,78 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-        <div uk-grid class="uk-child-width-1-2 uk-padding-remove test2">
-            <div class="test">
-                <div class="slider">
-                    <div class="uk-flex uk-flex-column ">
-                        <h1>
-                            <span>Agency</span><br>
-                            Freebie psd download
-                        </h1>
-                        <p>
-                            Maecenas suscipit imperdiet nisi ac hendrerit. Nam congue felis ac massa rutrum pulvinar.
-                            Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros
-                            nulla dapibus dui, at facilisis enim odio at velit. Aenean dictum eleifend mi sit amet
-                            luctus.
-                        </p>
-                    </div>
+        </div>
+        <div class="container">
+            <nav uk-navbar>
+                <a href="#" class="uk-navbar-item uk-logo"><img src="img/Layer_77.png" alt=""></a>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Works</a></li>
+                        <li><a href=""> Industries </a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <a href="#mobile-menu" uk-toggle class="uk-navbar-toggle" uk-navbar-toggle-icon></a>
+                </div>
 
-                    <div> Your Content</div>
-                    <div> Your Content</div>
-                    <div> Your Content</div>
-                    <div> Your Content</div>
+            </nav>
+            <div uk-grid class="uk-child-width-1-2 uk-padding-remove header__content">
+                <div class="header__content-left">
+                    <div class="slider">
+                        <div class="uk-flex uk-flex-column ">
+                            <h1>
+                                <span>Agency</span><br>
+                                Freebie psd download
+                            </h1>
+                            <p>
+                                Maecenas suscipit imperdiet nisi ac hendrerit. Nam congue felis ac massa rutrum
+                                pulvinar.
+                                Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus,
+                                eros
+                                nulla dapibus dui, at facilisis enim odio at velit. Aenean dictum eleifend mi sit amet
+                                luctus.
+                            </p>
+                        </div>
+
+                        <div> Your Content</div>
+                        <div> Your Content</div>
+                        <div> Your Content</div>
+                        <div> Your Content</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="uk-flex uk-flex-center uk-position-bottom uk-margin-bottom">
-            <a href="#test" class="go_to">
-                <img src="img/scroll_down.png" alt="">
-            </a>
-        </div>
-
-    </div>
-</header>
-<section class="clients" id="test">
-    <div class="uk-container">
-        <div class="uk-flex uk-flex-between uk-flex-middle">
-            <div>
-                <h3 class="uk-margin-remove">Our clients</h3>
-                <div class="uk-flex  uk-flex-middle uk-flex-center">
-                    <p class="uk-margin-remove-bottom uk-margin-small-right">View all</p>
-                    <img src="img/Layer_22.png" alt=""></div>
+            <div class="uk-flex uk-flex-center uk-position-bottom uk-margin-bottom">
+                <a href="#test" class="go_to">
+                    <img src="img/scroll_down.png" alt="">
+                </a>
             </div>
-            <img src="img/Layer_4.png" alt="">
-            <img src="img/Layer_6.png" alt="">
-            <img src="img/Layer_7.png" alt="">
-            <img src="img/Layer_8.png" alt="">
-            <img src="img/Layer_10.png" alt="">
-            <img src="img/Layer_11.png" alt="">
+
         </div>
-    </div>
-</section>
-<section class="aboutus">
-    <div class="uk-container">
-        <div uk-grid class="uk-child-width-1-2 uk-margin-top">
+    </header>
+    <section class="clients" id="test">
+        <div class="container">
+            <div class="uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                <div>
+                    <h3 class="uk-margin-remove">Our clients</h3>
+                    <div class="uk-flex  uk-flex-middle uk-flex-center">
+                        <p class="uk-margin-remove-bottom uk-margin-small-right">View all</p>
+                        <img src="img/Layer_22.png" alt=""></div>
+                </div>
+                <img src="img/Layer_4.png" alt="">
+                <img src="img/Layer_6.png" alt="">
+                <img src="img/Layer_7.png" alt="">
+                <img src="img/Layer_8.png" alt="">
+                <img src="img/Layer_10.png" alt="">
+                <img src="img/Layer_11.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="aboutus">
+        <div uk-grid class="container uk-child-width-1-2 uk-margin-top">
+
             <div>
                 <img src="img/Layer_64.png" alt="">
             </div>
@@ -101,12 +118,11 @@
                 </p>
                 <a class="uk-button uk-button-secondary" href=""> See more about us</a>
             </div>
+
         </div>
-    </div>
-</section>
-<section class="services">
-    <div class="uk-container">
-        <div uk-grid class="uk-child-width-1-2 uk-grid-large">
+    </section>
+    <section class="services">
+        <div uk-grid class="container uk-child-width-1-2">
             <div class="uk-flex uk-flex-column  uk-flex-top uk-flex-center uk-padding-remove ">
                 <h2><span>EXPERIENCE</span><br>
                     all EXPERT DIGITAL SERVICES</h2>
@@ -118,8 +134,7 @@
                 </p>
                 <a class="uk-button uk-button-secondary uk-margin-top" href=""> See our services</a>
             </div>
-
-            <div class="services__item uk-flex uk-flex-wrap uk-padding-remove">
+            <div class="services__item uk-flex uk-flex-wrap ">
 
                 <div>
                     <img src="img/Layer_18.png" alt="">
@@ -145,139 +160,134 @@
                     </p>
                 </div>
 
-            </div>
-
-        </div>
-    </div>
-</section>
-<section class="works">
-    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
-        <div class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
-            <h2>
-                Recent work
-            </h2>
-            <img src="img/Layer_12.png" alt="">
-            <p class="text_center">
-                Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus
-                dui, at facilisis enim odio at velit.
-            </p>
-        </div>
-        <div uk-grid class="uk-child-width-1-2">
-            <div>
 
             </div>
-            <div>
-                <h3 class="uk-margin-large-top">
-                    CustomerDomain.com
-                </h3>
-                <p>
-                    Donec lacus leo, vestibulum et erat eget, viverra posuere est. Maecenas dapibus mi erat. Duis
-                    egestas tempus leo, non euismod velit dictum eu.
+        </div>
+    </section>
+    <section class="works">
+        <div class="container uk-padding-large uk-padding-remove-horizontal">
+            <div class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+                <h2>
+                    Recent work
+                </h2>
+                <img src="img/Layer_12.png" alt="">
+                <p class="text_center">
+                    Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla
+                    dapibus
+                    dui, at facilisis enim odio at velit.
                 </p>
-                <div class="works__table">
-                    <div><p class="works__table-first">Client</p> : <p class="works__table-second">Customer</p></div>
-                    <div><p class="works__table-first">Location</p> : <p class="works__table-second"> U.K.</p></div>
-                    <div><p class="works__table-first">Services</p> : <p class="works__table-second"> Search Engine
-                        Optimization</p></div>
-                    <div><p class="works__table-first">Website link</p> : <p class="works__table-second"><a
-                            href="">www.CustomerDomain.com</a></p></div>
+            </div>
+            <div uk-grid class="uk-child-width-1-2">
+                <div>
+
+                </div>
+                <div class="works-right">
+                    <h3 class="uk-margin-large-top ">
+                        CustomerDomain.com
+                    </h3>
+                    <p>
+                        Donec lacus leo, vestibulum et erat eget, viverra posuere est. Maecenas dapibus mi erat. Duis
+                        egestas tempus leo, non euismod velit dictum eu.
+                    </p>
+                    <div class="works__table">
+                        <div><p class="works__table-first">Client</p> : <p class="works__table-second">Customer</p>
+                        </div>
+                        <div><p class="works__table-first">Location</p> : <p class="works__table-second"> U.K.</p></div>
+                        <div><p class="works__table-first">Services</p> : <p class="works__table-second"> Search Engine
+                            Optimization</p></div>
+                        <div><p class="works__table-first">Website link</p> : <p class="works__table-second"><a
+                                href="">www.CustomerDomain.com</a></p></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="works__items">
-    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
-        <div class=" uk-position-relative owl-carousel owl-theme">
-            <div class="works__item uk-flex uk-flex-middle uk-flex-center">
-                <img src="img/Layer_30.png" alt="">
+    </section>
+    <section class="works__items">
+        <div class="container uk-padding-large uk-padding-remove-horizontal">
+            <div class=" uk-position-relative owl-carousel owl-theme">
+                <div class="works__item uk-flex uk-flex-middle uk-flex-center">
+                    <img src="img/Layer_30.png" alt="">
+                </div>
+
+                <div class="works__item uk-flex uk-flex-middle uk-flex-center">
+                    <img src="img/Layer_31.png" alt="">
+                </div>
+
+                <div class="works__item uk-flex uk-flex-column uk-flex-middle uk-flex-center bg-white">
+                    <img src="img/Layer_37.png" alt="">
+                    <p> Futurethink.com is the professional website which researches and develops innovation for
+                        organizations using a refreshing and simple approach.</p>
+                    <p class="uk-margin-remove"><a href="">View details</a></p>
+                </div>
+            </div>
+            <div class="uk-flex uk-margin-medium-top uk-flex-center">
+                <img src="img/prev.png" alt="" class="customPrevBtn">
+                <a class="uk-button uk-button-secondary uk-margin-right uk-margin-left" href=""> Show all</a>
+                <img src="img/next.png" alt="" class="customNextBtn">
+            </div>
+        </div>
+
+    </section>
+    <section class="industries">
+        <div class="container uk-padding-large uk-padding-remove-horizontal uk-flex uk-flex-wrap uk-flex-between">
+
+            <div class="uk-width-1-2 uk-margin-remove">
+                <h2><span>We focus</span><br>
+                    ON KEY INDUSTRIES</h2>
+                <img src="img/Layer_12.png" alt="">
+                <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc rutrum nisi vel nib.</p>
             </div>
 
-            <div class="works__item uk-flex uk-flex-middle uk-flex-center">
-                <img src="img/Layer_31.png" alt="">
+            <div class="industries__item">
+                <img src="img/Layer_54.png" alt="">
+                <p>Digital Marketing</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_55.png" alt="">
+                <p>Sport & Entertainment</p>
             </div>
 
-            <div class="works__item uk-flex uk-flex-column uk-flex-middle uk-flex-center bg-white">
-                <img src="img/Layer_37.png" alt="">
-                <p> Futurethink.com is the professional website which researches and develops innovation for
-                    organizations using a refreshing and simple approach.</p>
-                <p class="uk-margin-remove"><a href="">View details</a></p>
+
+            <div class="industries__item">
+                <img src="img/Layer_51.png" alt="">
+                <p>Health & Fitness</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_60.png" alt="">
+                <p> Law firms and Real Estates</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_59.png" alt="">
+                <p>Professional Services</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_50.png" alt="">
+                <p>Fashion & Beauty</p>
+            </div>
+
+
+            <div class="industries__item">
+                <img src="img/Layer_57.png" alt="">
+                <p>Food & Beverage</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_56.png" alt="">
+                <p> Games & Comics</p>
+            </div>
+            <div class="industries__item">
+                <img src="img/Layer_58.png" alt="">
+                <p>Travel & Hotels</p>
+            </div>
+            <div class="industries__item">
+                <a class="uk-button uk-button-secondary" href=""> Show all</a>
             </div>
 
         </div>
-        <div class="uk-flex uk-margin-medium-top uk-flex-center">
-            <button class="customPrevBtn"><img src="img/prev.png" alt="" ></button>
-
-
-              <a class="uk-button uk-button-secondary uk-margin-right uk-margin-left" href=""> Show all</a>
-
-                  <img src="img/next.png" alt="" class="customNextBtn">
-
-          </div>
-    </div>
-    </div>
-</section>
-<section>
-    <div class="test4 uk-container uk-padding-large uk-padding-remove-horizontal uk-flex uk-flex-wrap uk-flex-between">
-
-        <div class="uk-width-1-2 uk-margin-remove">
-            <h2><span>We focus</span><br>
-                ON KEY INDUSTRIES</h2>
-            <img src="img/Layer_12.png" alt="">
-            <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc rutrum nisi vel nib.</p>
-        </div>
-
-        <div class="industries__item">
-            <img src="img/Layer_54.png" alt="">
-            <p>Digital Marketing</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_55.png" alt="">
-            <p>Sport & Entertainment</p>
-        </div>
-
-
-        <div class="industries__item">
-            <img src="img/Layer_51.png" alt="">
-            <p>Health & Fitness</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_60.png" alt="">
-            <p> Law firms and Real Estates</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_59.png" alt="">
-            <p>Professional Services</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_50.png" alt="">
-            <p>Fashion & Beauty</p>
-        </div>
-
-
-        <div class="industries__item">
-            <img src="img/Layer_57.png" alt="">
-            <p>Food & Beverage</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_56.png" alt="">
-            <p> Games & Comics</p>
-        </div>
-        <div class="industries__item">
-            <img src="img/Layer_58.png" alt="">
-            <p>Travel & Hotels</p>
-        </div>
-        <div class="industries__item">
-            <a class="uk-button uk-button-secondary" href=""> Show all</a>
-        </div>
-
-    </div>
-</section>
-<section class="feature">
-    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
-        <div uk-grid class="uk-child-width-1-2">
-            <div><img src="img/Layer_80.png" alt=""></div>
-            <div class="uk-flex uk-flex-column uk-flex-center uk-flex-top ">
+    </section>
+    <section class="feature">
+        <div uk-grid class="container uk-child-width-1-2 uk-padding-large uk-padding-remove-horizontal">
+            <div class="uk-flex uk-flex-middle"><img src="img/Layer_80.png" alt=""></div>
+            <div class="uk-flex uk-flex-column uk-flex-center uk-flex-top uk-padding-remove uk-flex-middle">
                 <h2>
                     <span>Feature</span><br>
                     Marketing Guide
@@ -290,65 +300,68 @@
                     euismod quis dui. Integer tempor urna quis quam volutpat, non consequat augue iaculis. Proin
                     malesuada sem sagittis imperdiet rutrum.
                 </p>
-                <div class="uk-flex ">
-                    <a class="uk-button uk-button-secondary uk-margin-right" href=""> See more</a>
+                <div class="uk-flex feature__buttons">
+                    <a class="uk-button uk-button-secondary " href=""> See more</a>
                     <a class="uk-button uk-button-secondary" href=""> Download</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="blog">
-    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
-        <div class="uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-padding">
-            <h2>Recent blog</h2>
-            <img src="img/Layer_12.png" alt="">
-            <p class="text_center">
-                Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus, nec
-                vestibulum orci feugiat.
-            </p>
-        </div>
-        <div uk-grid class="uk-child-width-1-3">
-            <div>
-                <img src="img/Layer_43.png" alt="">
-                <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
-                <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
+    </section>
+    <section class="blog">
+        <div class="container uk-padding-large uk-padding-remove-horizontal">
+            <div class="uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-padding">
+                <h2>Recent blog</h2>
                 <img src="img/Layer_12.png" alt="">
-                <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus, nec
-                    vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
-                <p><a href="">Read more</a></p>
+                <p class="text_center">
+                    Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus,
+                    nec
+                    vestibulum orci feugiat.
+                </p>
             </div>
-            <div>
-                <img src="img/Layer_44.png" alt="">
-                <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
-                <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
-                <img src="img/Layer_12.png" alt="">
-                <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus, nec
-                    vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
-                <p><a href="">Read more
+            <div uk-grid class="uk-child-width-1-3 blog__items">
+                <div>
+                    <img src="img/Layer_43.png" alt="">
+                    <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
+                    <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
+                    <img src="img/Layer_12.png" alt="">
+                    <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus,
+                        nec
+                        vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
+                    <p><a href="">Read more</a></p>
+                </div>
+                <div>
+                    <img src="img/Layer_44.png" alt="">
+                    <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
+                    <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
+                    <img src="img/Layer_12.png" alt="">
+                    <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus,
+                        nec
+                        vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
+                    <p><a href="">Read more
                     </a></p>
-            </div>
-            <div>
-                <img src="img/Layer_45.png" alt="">
-                <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
-                <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
-                <img src="img/Layer_12.png" alt="">
-                <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus, nec
-                    vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
-                <p><a href="">Read more
+                </div>
+                <div>
+                    <img src="img/Layer_45.png" alt="">
+                    <h5 class="uk-margin-top uk-margin-remove-bottom">Is there hope for the SEO profession?</h5>
+                    <p class="uk-margin-remove-top"> Post by Lawrence R. Smith</p>
+                    <img src="img/Layer_12.png" alt="">
+                    <p>Donec nulla justo, pharetra in nulla in, lacinia pulvinar nunc. Nunc rutrum nisi vel nibh cursus,
+                        nec
+                        vestibulum orci feugiat. Nunc in luctus lacus. Integer eget dui nisi. Integer mauris lacus. </p>
+                    <p><a href="">Read more
                     </a></p>
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-center uk-margin-large-top">
+
+                <h4 class="uk-margin-remove"><a href="">+ load more</a></h4>
+
             </div>
         </div>
-        <div class="uk-flex uk-flex-center uk-margin-large-top">
+    </section>
+    <footer>
+        <div uk-grid class="container uk-child-width-1-4 uk-padding-large uk-padding-remove-horizontal uk-flex-wrap">
 
-            <h4 class="uk-margin-remove"><a href="">+ load more</a></h4>
-
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
-        <div uk-grid class="uk-child-width-1-4">
             <div>
                 <h3>
                     AGENCY CREATIVE
@@ -388,9 +401,10 @@
                     <a href="#"><img src="img/Layer_79.png" alt=""></a>
                 </div>
             </div>
+
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
